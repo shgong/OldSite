@@ -259,7 +259,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -483,12 +483,13 @@ footer {
 
 
 /* Blog */
-.sect {
-    padding: 50px 0;
-    display: block;
-}
+
 .text {
     text-align: left;
+}
+.content{
+    max-width: 800px;
+    margin:0 auto;
 }
 
 
