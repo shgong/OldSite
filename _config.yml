@@ -1,5 +1,5 @@
 # Permalinks
-permalink:        pretty
+permalink:        /blog/:categories/:year/:month/:day/:title.html
 relative_permalinks: true
 
 # Setup
