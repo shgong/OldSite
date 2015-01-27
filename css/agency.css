@@ -487,6 +487,9 @@ footer {
 .text {
     text-align: left;
 }
+.content{
+    max-width: 800px;
+}
 
 
 
