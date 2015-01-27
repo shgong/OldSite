@@ -7,7 +7,7 @@ title:            Blog
 tagline:          shgong
 url:              
 paginate:         1
-baseurl:          /
+baseurl:          shgong.github.io
 author:
   name:           shgong
   url:            
@@ -20,4 +20,4 @@ github:
 
 
 # This is the list of pages to incldue in the header of the website.
-pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
+pages_list:       {'Home':'/blog','Archive':'/archive','Feed':'/atom.xml'}
