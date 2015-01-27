@@ -7,7 +7,7 @@ title:            Blog
 tagline:          shgong
 url:              
 paginate:         1
-baseurl:          shgong.github.io
+baseurl:          http://shgong.github.io/
 author:
   name:           shgong
   url:            
