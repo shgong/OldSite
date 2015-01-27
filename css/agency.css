@@ -482,6 +482,13 @@ footer {
 
 
 
+/* Blog */
+.text {
+    text-align: left;
+
+}
+
+
 
 ::-moz-selection {
     text-shadow: none;
