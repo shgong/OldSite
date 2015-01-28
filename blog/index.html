@@ -5,7 +5,7 @@ title: Home
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a class="text-center" href="{{ post.url }}">{{ post.title }}</a></h1>
+  <h2><a class="text-center" href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="author">
     <span class="date text-center">{{ post.date | date_to_string }}</span>
   </p>
