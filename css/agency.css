@@ -520,7 +520,7 @@ body {
     webkit-tap-highlight-color: #878787;
 }
 
-img[alt=blog] { width: 800px; }
+img[alt="blog"] { width: 800px !important;}
 
 /*
  * Pagination
