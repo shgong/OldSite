@@ -3,4 +3,6 @@ layout: post
 title: Hello World
 ---
 
-test
+Currently under construction!
+
+![blog]({{ site.baseurl }}/img/header-bg.jpg)
