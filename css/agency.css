@@ -541,9 +541,14 @@ body {
   border: 1px solid #eee;
 }
 
+.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+
 
 a.pagination-item:hover {
   background-color: #ccc;
+  color:#222 !important;
   text-decoration: none !important;
 }
 
