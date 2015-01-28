@@ -484,10 +484,14 @@ footer {
 
 /* Blog */
 
-.text {
+.content-text {
     text-align: left;
 }
 .content{
+    max-width: 800px;
+    margin:0 auto;
+}
+.content-title{
     max-width: 800px;
     margin:0 auto;
 }
