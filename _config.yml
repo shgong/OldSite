@@ -21,4 +21,4 @@ github:
 
 
 # This is the list of pages to incldue in the header of the website.
-pages_list:       {'Home':'/blog','Archive':'/archive','Feed':'/atom.xml'}
+pages_list:       {'Archive':'/archive','Feed':'/atom.xml','About':'/'}
