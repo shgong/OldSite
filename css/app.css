@@ -129,6 +129,10 @@
     opacity: 0.9;
 }
 
+#stack .stack-item .stack-link .stack-hover:active {
+    opacity: 0.9;
+}
+
 #stack .stack-item .stack-caption {
     margin: auto;
     padding: 25px;
