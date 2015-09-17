@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SiteC</title>
+    <title>Shuheng Projects</title>
 
     <!-- Bootstrap Core CSS -->
 
@@ -49,6 +49,7 @@
                 </li>
 
             </ul>
+
         </div>
     </div>
 
@@ -72,9 +73,9 @@
 
         </div>
 
+        <!-- No results -->
         <div class="col-xs-12 text-muted empty" ng-hide="filteredItems.length">
             <p>Notice: result.length()=0. Click <a class="reset" ng-click="ResetFields()">HERE</a> to reset.</p>
-
         </div>
 
     </div>
@@ -95,13 +96,13 @@
                     <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2  col-sm-10 col-sm-offset-1 ">
                         <div class="modal-body">
                             <h2>{{currentProject.name}}</h2>
-                            <p class="item-intro text-muted">{{currentProject.tag.join(', ')}}</p>
+                            <p class="item-intro">{{currentProject.tag.join(', ')}}</p>
                             <img class="img-responsive img-centered" ng-show="currentProject.img" ng-src={{"img/"+currentProject.img}} alt="">
 
                             <div ng-bind-html="TrustedHtml"></div>
 
                             <br>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close Project</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close Project</button>
                         </div>
                     </div>
                 </div>
