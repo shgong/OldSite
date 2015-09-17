@@ -3,6 +3,7 @@ $(document).ready(function() {
     $('.stack-hover').bind('touchstart', function(e) {
         e.preventDefault();
         if ($(this).hasClass('hover_effect')) this.click();
+        $('.stack-hover').removeClass('hover_effect');
         $(this).toggleClass('hover_effect');
     });
 });
