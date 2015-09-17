@@ -10,10 +10,6 @@ $(document).ready(function() {
         };
     });
 
-    $('.stack-hover').bind('click', function(e) {
-        e.preventDefault();
-        $('#stackModal').show();
-    });
 });
 
 

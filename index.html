@@ -61,7 +61,7 @@
 
 
         <div class="col-xs-12 col-md-4 col-sm-6  stack-item" ng-repeat="project in filteredItems = ( ct.projects | filter:searchTerm | findTag: category )">
-            <a ng-click="SetCurrentProject(project)" data-target="#stackModal" class="stack-link" data-toggle="modal">
+            <a ng-click="SetCurrentProject(project)" class="stack-link"  data-target="#stackModal" data-toggle="modal">
                 <div class="stack-hover">
                     <div class="stack-caption">
                     <h4>{{project.name}}</h4>
