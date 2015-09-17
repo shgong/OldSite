@@ -9,6 +9,11 @@ $(document).ready(function() {
         $(this).addClass('hover_effect');
         };
     });
+
+    $('.stack-hover').bind('click', function(e) {
+        e.preventDefault();
+        $('#stackModal').show();
+    });
 });
 
 
