@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    $('.stack-hover').bind('touchstart', function(e) {
+    $('#stack').on('touchstart','.stack-hover' ,function(e) {
         e.preventDefault();
         if ($(this).hasClass('hover_effect')) this.click();
         else
