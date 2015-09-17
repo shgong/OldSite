@@ -1,7 +1,8 @@
 
 $(document).ready(function() {
-    $('.stack-hover').bind('touchstart touchend', function(e) {
+    $('.stack-hover').bind('touchstart', function(e) {
         e.preventDefault();
+        if ($(this).hasClass('hover_effect')) this.click();
         $(this).toggleClass('hover_effect');
     });
 });
