@@ -4,8 +4,14 @@ data: [{
     "name":"Hacknocraft Google Analytics System",
     "thumb":"thumbnail/11.png",
     "img":"project/11.jpg",
-    "tag":["Statistical Analysis","Google Analytics","Machine Learning"],
-    "content":'<p>Designed an analytical system for an iOS applications in Hacknocraft with Google Analytics. Set up appropriate Metric, Dimension and Event Tracker to extract valuable information.</p>'
+    "tag":["Statistical Analysis","Google Analytics"],
+    "content":'<p>Designed an analytical system for an iOS applications in Hacknocraft with Google Analytics. Use Userid, Custom Metric, Custom Dimension and Event Tracker feature of Google Analytics iOS SDK to extract information. Build several custom reports including NewVsReturn, activation difference, deposit event analysis, cohort analysis and behavior flow to data mine useful information for the clients and the plugine developers.</p>'
+},{
+    "name":"Science Surveyor",
+    "thumb":"thumbnail/19.png",
+    "img":"project/19.jpg",
+    "tag":["Python","Machine Learning","Natural Language Processing","Network Analysis"],
+    "content":'<p>Worked on an idea network platform to extract idea centrality and content information on large literature corpus.Calculated a rough pairwise similarity on frequency matrix with Hadoop and applied 5-shingle language processing on selected pairs to generate a shingle network of articles for Python graph-tool network analysis.</p>'
 },{
     "name":"Gesture Control for Automobile",
     "thumb":"thumbnail/1.png",
@@ -13,11 +19,35 @@ data: [{
     "tag":["Image Processing","C++","OpenCV","Machine Learning"],
     "content":'<iframe src="http://player.vimeo.com/video/107796771?title=0&byline=0&portrait=0" class="video-responsive" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p> Isolate the hand from the webcam feed using Haar cascades, then matched to one of three patterns: Closed fist, open palm, one finger up. Once a gesture for palm is recognized, the isolated hand is fed into the second module, which identifies fingertips and begins tracking them. </p> <p>When a finger is lost in tracking, or does not move for a second, the tracking is stopped, and the movement history of the finger is sent to a vector-based gesture matching software which predicts the command a user has specified. </p>'
 },{
-    "name":"Image Processing and Extraction",
-    "thumb":"thumbnail/14.png",
-    "img":"project/14.jpg",
-    "tag":["Image Processing","Matlab"],
-    "content":'<p>Use matlab to extract information from microscope photos, apply sobel edge extraction after smooth the image, dilate the image to make lines more clear, apply imfill and imclearborder to filter out noise.</p><p> When the image is corrupted, apply the fast fourier transform, analyze the symetric properties in the fourier space, use notch filter to clear the interuptions. </p> '
+    "name":"Automatic Music Composition",
+    "thumb":"thumbnail/18.png",
+    "img":"project/18.jpg",
+    "tag":["Matlab","Artificial Intelligence","Machine Learning","Music Processing"],
+    "content":'<p>Designed a genetic algorithm system in MATLAB to generate music pieces from a series of mutations. Trained the prediction artificial intelligence with music feature data extracted from song databases. Applied machine learning to generate the transition pattern with hidden Markov model. </p>'
+},{
+    "name":"CRM Web Application",
+    "thumb":"thumbnail/6.png",
+    "img":"project/6.jpg",
+    "tag":["Web Development","Java","Javascript","SQL","UI/UX Design"],
+    "content":" <p>Developed the JavaEE based web application with MySQL database, Amazon Web Service(including message and queue), Java Jersey framework and REST API.</p> <p>Designed the user interface using Photoshop and implemented with jQuery, AngularJS, html/css.</p><p>Guided by Professor Donald Ferguson.</p>"
+},{
+    "name":"Cryogenic Measurement Design",
+    "thumb":"thumbnail/2.png",
+    "img":"project/2.jpg",
+    "tag":["Physics","Circuit Design","Altium","Mathematica","Electronics","Statistical Analysis"],
+    "content":"<p>In this system, I set up a series of filters including RC filter, LC filter and powder filter from room temperature to the mixing chamber. I chose proper components to design the mixing chamber filter, designed a triplex PCB with 24 parallel filtering circuit using the conductor-based coplanar waveguide model. After tha parts assembled, the filter was added to the measuring circuit in themixing chamber of the refrigerator, and connected with other filters in higher temperature. Guided by Professor Ning Kang.</p>"
+},{
+    "name":"Teeume.com",
+    "thumb":"thumbnail/3.png",
+    "img":"project/3.jpg",
+    "tag":["Web Development","Javascript","SQL","UI/UX Design","Google Analytics"],
+    "content":"<p>Revised the navigation structure and visual design of the website.  Worked with production division to adjust database system for order tracking and demand analysis. Changed the relationship between customer entity and orders and added new features for tracking.</p><p>Click <a href='http://www.teeume.com'>HERE</a> to visit the website.</p>"
+},{
+    "name":"Graphic Design Collection",
+    "thumb":"thumbnail/13.png",
+    "img":"project/13.jpg",
+    "tag":["Graphic Design","Adobe Photoshop","Adobe Illustrator",'Javascript'],
+    "content":"<p>A collection of various graphic design projects as a designer at Pi Design Association, including flyers, posters, exhibition panels, namecards, T-shirts, logos and web interfaces. </p>"
 },{
     "name":"Artificial Intelligence Agents",
     "thumb":"thumbnail/15.png",
@@ -37,48 +67,11 @@ data: [{
     "tag":["C++","Artificial Intelligence","Physics"],
     "content":'<p>Build a C++ physics simulation engine with various physics laws and phenomenon. </p> <p>Start from Explicit and Implicit Euler, implement physics forces including gravity, elasticity, collision, fluid activity and electromagnetic forces. Also use feed back control to design a biped robot artificial intelligence. </p> '
 },{
-    "name":"Automation Music Composition",
-    "thumb":"thumbnail/18.png",
-    "img":"project/18.jpg",
-    "tag":["Matlab","Artificial Intelligence","Machine Learning","Music Processing"],
-    "content":'<p>Designed a genetic algorithm system in MATLAB to generate music pieces from a series of mutations. Trained the prediction artificial intelligence with music feature data extracted from song databases. Applied machine learning to generate the transition pattern with hidden Markov model. </p>'
-},{
-    "name":"CRM Web Application",
-    "thumb":"thumbnail/6.png",
-    "img":"project/6.jpg",
-    "tag":["Web Development","Java","Javascript","SQL","UI/UX Design"],
-    "content":" <p>Developed the JavaEE based web application with MySQL database, Amazon Web Service(including message and queue), Java Jersey framework and REST API.</p> <p>Designed the user interface using Photoshop and implemented with jQuery, AngularJS, html/css.</p><p>Guided by Professor Donald Ferguson.</p>"
-
-},{
-    "name":"Cryogenic Measurement Design",
-    "thumb":"thumbnail/2.png",
-    "img":"project/2.jpg",
-    "tag":["Physics","Circuit Design","Altium","Labview","Electronics","Statistical Analysis"],
-    "content":"<p>In this system, I set up a series of filters including RC filter, LC filter and powder filter from room temperature to the mixing chamber. I chose proper components to design the mixing chamber filter, designed a triplex PCB with 24 parallel filtering circuit using the conductor-based coplanar waveguide model. After tha parts assembled, the filter was added to the measuring circuit in themixing chamber of the refrigerator, and connected with other filters in higher temperature. Guided by Professor Ning Kang.</p>"
-},{
-    "name":"Teeume.com",
-    "thumb":"thumbnail/3.png",
-    "img":"project/3.jpg",
-    "tag":["Web Development","Javascript","SQL","UI/UX Design","Google Analytics"],
-    "content":"<p>Revised the navigation structure and visual design of the website.  Worked with production division to adjust database system for order tracking and demand analysis. Changed the relationship between customer entity and orders and added new features for tracking.</p><p>Click <a href='http://www.teeume.com'>HERE</a> to visit the website.</p>"
-},{
-    "name":"Project Yi",
-    "thumb":"thumbnail/10.png",
-    "img":"project/10.jpg",
-    "tag":["Game Design","GameMaker","Adobe Photoshop","UI/UX Design"],
-    "content":"<p>A indie danmaku game inspired from ancient chinese mythology.</p>"
-},{
-    "name":"Graphic Design Collection",
-    "thumb":"thumbnail/13.png",
-    "img":"project/13.jpg",
-    "tag":["Graphic Design","Adobe Photoshop","Adobe Illustrator",'Javascript'],
-    "content":"<p>A collection of various graphic design projects as a designer at Pi Design Association, including flyers, posters, exhibition panels, namecards, T-shirts, logos and web interfaces. </p>"
-},{
-    "name":"Mingde Exchange Program Report",
-    "thumb":"thumbnail/8.png",
-    "img":"project/8.jpg",
-    "tag":["Book Design","Graphic Design","Adobe InDesign"],
-    "content":"<p>Report book of Mingde 2013 Winter Exchange Program to London School of Economics and Political Science & Edinburgh University.</p>"
+    "name":"Image Processing and Extraction",
+    "thumb":"thumbnail/14.png",
+    "img":"project/14.jpg",
+    "tag":["Image Processing","Matlab"],
+    "content":'<p>Use matlab to extract information from microscope photos, apply sobel edge extraction after smooth the image, dilate the image to make lines more clear, apply imfill and imclearborder to filter out noise.</p><p> When the image is corrupted, apply the fast fourier transform, analyze the symetric properties in the fourier space, use notch filter to clear the interuptions. </p> '
 },{
     "name":"Girl&Giant",
     "thumb":"thumbnail/9.png",
@@ -92,6 +85,19 @@ data: [{
     "tag":["Graphic Design","Adobe Photoshop","Adobe Illustrator"],
     "content":"<p>Won the first place of the design competetion in both 2012 and 2013.</p><p> Sold a few thousands among the campus.</p>"
 },{
+    "name":"Project Yi",
+    "thumb":"thumbnail/10.png",
+    "img":"project/10.jpg",
+    "tag":["Game Design","GameMaker","Adobe Photoshop","UI/UX Design"],
+    "content":"<p>A indie danmaku game inspired from ancient chinese mythology.</p>"
+},{
+    "name":"Mingde Exchange Program Report",
+    "thumb":"thumbnail/8.png",
+    "img":"project/8.jpg",
+    "tag":["Book Design","Graphic Design","Adobe InDesign"],
+    "content":"<p>Report book of Mingde 2013 Winter Exchange Program to London School of Economics and Political Science & Edinburgh University.</p>"
+},{
+
     "name":"PISTG",
     "thumb":"thumbnail/4.png",
     "img":"",
@@ -115,13 +121,13 @@ data: [{
 
 category: [{
     "name":"Programming",
-    "child":["C++","Python","C#","Java","Javascript","Lisp"]
+    "child":["C++","Python","C#","Java","SQL","Javascript","Lisp","Matlab"]
 },{
     "name":"Design",
     "child":["Graphic Design","Game Design","Circuit Design","Book Design","UI/UX Design"]
 },{
     "name":"Application",
-    "child":["Adobe Photoshop","Adobe Illustrator","Adobe InDesign","Google Analytics","Matlab","Mathematica","Unity3D"]
+    "child":["Adobe Photoshop","Adobe Illustrator","Adobe InDesign","Google Analytics","Mathematica","Unity3D"]
 },{
     "name":"Topics",
     "child":["Artificial Intelligence","Electronics","Image Processing","Music Processing","Machine Learning","Physics","Statistical Analysis"]
