@@ -9,6 +9,13 @@
 
 
 
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;
+}
+
+
+
 
 /* Side Navigation */
 .side-nav {
@@ -129,7 +136,7 @@
     opacity: 0.9;
 }
 
-#stack .stack-item .stack-link .stack-hover:focus {
+#stack .stack-item .stack-link .stack-hover.hover_effect {
     opacity: 0.9;
 }
 

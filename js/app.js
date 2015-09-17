@@ -1,4 +1,12 @@
 
+$(document).ready(function() {
+    $('.hover').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+});
+
+
 
     angular.module('sitec',[])        // Module(name,dependency)
     .controller('Controller', ['$scope','$sce', function($scope,$sce) {
