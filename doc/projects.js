@@ -37,6 +37,12 @@ data: [{
     "tag":["C++","Artificial Intelligence","Physics"],
     "content":'<p>Build a C++ physics simulation engine with various physics laws and phenomenon. </p> <p>Start from Explicit and Implicit Euler, implement physics forces including gravity, elasticity, collision, fluid activity and electromagnetic forces. Also use feed back control to design a biped robot artificial intelligence. </p> '
 },{
+    "name":"Automation Music Composition",
+    "thumb":"thumbnail/18.png",
+    "img":"project/18.jpg",
+    "tag":["Matlab","Artificial Intelligence","Machine Learning","Music Processing"],
+    "content":'<p>Designed a genetic algorithm system in MATLAB to generate music pieces from a series of mutations. Trained the prediction artificial intelligence with music feature data extracted from song databases. Applied machine learning to generate the transition pattern with hidden Markov model. </p>'
+},{
     "name":"CRM Web Application",
     "thumb":"thumbnail/6.png",
     "img":"project/6.jpg",
@@ -65,8 +71,8 @@ data: [{
     "name":"Graphic Design Collection",
     "thumb":"thumbnail/13.png",
     "img":"project/13.jpg",
-    "tag":["Graphic Design","Adobe Photoshop","Adobe Illustrator"],
-    "content":"<p>A collection of various graphic design projects as a designer at Pi Design Association.</p></p>"
+    "tag":["Graphic Design","Adobe Photoshop","Adobe Illustrator",'Javascript'],
+    "content":"<p>A collection of various graphic design projects as a designer at Pi Design Association, including flyers, posters, exhibition panels, namecards, T-shirts, logos and web interfaces. </p>"
 },{
     "name":"Mingde Exchange Program Report",
     "thumb":"thumbnail/8.png",
@@ -118,7 +124,7 @@ category: [{
     "child":["Adobe Photoshop","Adobe Illustrator","Adobe InDesign","Google Analytics","Matlab","Mathematica","Unity3D"]
 },{
     "name":"Topics",
-    "child":["Artificial Intelligence","Electronics","Image Processing","Machine Learning","Physics","Statistical Analysis"]
+    "child":["Artificial Intelligence","Electronics","Image Processing","Music Processing","Machine Learning","Physics","Statistical Analysis"]
 }]
 
 
