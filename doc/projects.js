@@ -70,7 +70,7 @@ data: [{
     "name":"Image Processing and Extraction",
     "thumb":"thumbnail/14.png",
     "img":"project/14.jpg",
-    "tag":["Image Processing","Matlab"],
+    "tag":["Image Processing","Matlab","Java","OpenCV"],
     "content":'<p>Use matlab to extract information from microscope photos, apply sobel edge extraction after smooth the image, dilate the image to make lines more clear, apply imfill and imclearborder to filter out noise.</p><p> When the image is corrupted, apply the fast fourier transform, analyze the symetric properties in the fourier space, use notch filter to clear the interuptions. </p> '
 },{
     "name":"Girl&Giant",
