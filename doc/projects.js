@@ -16,7 +16,7 @@ data: [{
     "name":"Gesture Control for Automobile",
     "thumb":"thumbnail/1.png",
     "img":"",
-    "tag":["Image Processing","C++","OpenCV","Machine Learning"],
+    "tag":["Image Processing","C++","Python","OpenCV","Machine Learning"],
     "content":'<iframe src="http://player.vimeo.com/video/107796771?title=0&byline=0&portrait=0" class="video-responsive" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p> Isolate the hand from the webcam feed using Haar cascades, then matched to one of three patterns: Closed fist, open palm, one finger up. Once a gesture for palm is recognized, the isolated hand is fed into the second module, which identifies fingertips and begins tracking them. </p> <p>When a finger is lost in tracking, or does not move for a second, the tracking is stopped, and the movement history of the finger is sent to a vector-based gesture matching software which predicts the command a user has specified. </p>'
 },{
     "name":"Automatic Music Composition",
